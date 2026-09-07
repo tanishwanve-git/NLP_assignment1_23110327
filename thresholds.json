@@ -1,0 +1,8 @@
+{
+    "toxic": 0.5,
+    "severe_toxic": 0.3,
+    "obscene": 0.45,
+    "threat": 0.15,
+    "insult": 0.55,
+    "identity_hate": 0.45
+}

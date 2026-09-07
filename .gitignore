@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Framework outputs
+.gradio/
+.pytest_cache/
+results/
+checkpoint-*/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large Datasets & Generated CSVs
+*.csv
+!sample_data/*.csv
+
+# Generated output CSVs (regenerated at runtime)
+final_results.csv
+per_label_f1.csv
+inspection_results.csv
+inspection_metrics_summary.csv
+intent_evaluation_results.csv
+system_inspection_results.csv
+
+# Heavy Model Weights & Archives
+*.zip
+*.pkl
+fine_tuned_llm/
+fine_tuned_intent_model/
+
+# macOS / OS Metadata
+.DS_Store
+Thumbs.db
